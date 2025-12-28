@@ -1,0 +1,19 @@
+{
+  "query": "SELECT mp.id, mp.userId, mp.currentWeight, mp.targetWeight, u.name, mp.createdAt, mp.updatedAt FROM metabolic_profiles mp JOIN users u ON mp.userId = u.id ORDER BY mp.updatedAt DESC;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 38CTfHQgu7ziqf3.8ba454521095 --database naaABETn3TXZtukMehYNy8 --execute SELECT mp.id, mp.userId, mp.currentWeight, mp.targetWeight, u.name, mp.createdAt, mp.updatedAt FROM metabolic_profiles mp JOIN users u ON mp.userId = u.id ORDER BY mp.updatedAt DESC;",
+  "rows": [
+    {
+      "id": "1",
+      "userId": "1",
+      "currentWeight": "200",
+      "targetWeight": "160",
+      "name": "Robert Washburn",
+      "createdAt": "2025-11-30 13:53:27",
+      "updatedAt": "2025-11-30 14:48:07"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuserId\tcurrentWeight\ttargetWeight\tname\tcreatedAt\tupdatedAt\n1\t1\t200\t160\tRobert Washburn\t2025-11-30 13:53:27\t2025-11-30 14:48:07\n",
+  "stderr": "",
+  "execution_time_ms": 69
+}

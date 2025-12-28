@@ -1,0 +1,40 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 38CTfHQgu7ziqf3.8ba454521095 --database naaABETn3TXZtukMehYNy8 --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_naaABETn3TXZtukMehYNy8": "__drizzle_migrations"
+    },
+    {
+      "Tables_in_naaABETn3TXZtukMehYNy8": "chat_messages"
+    },
+    {
+      "Tables_in_naaABETn3TXZtukMehYNy8": "daily_goals"
+    },
+    {
+      "Tables_in_naaABETn3TXZtukMehYNy8": "fasting_logs"
+    },
+    {
+      "Tables_in_naaABETn3TXZtukMehYNy8": "fasting_schedules"
+    },
+    {
+      "Tables_in_naaABETn3TXZtukMehYNy8": "meal_logs"
+    },
+    {
+      "Tables_in_naaABETn3TXZtukMehYNy8": "metabolic_profiles"
+    },
+    {
+      "Tables_in_naaABETn3TXZtukMehYNy8": "progress_logs"
+    },
+    {
+      "Tables_in_naaABETn3TXZtukMehYNy8": "supplement_logs"
+    },
+    {
+      "Tables_in_naaABETn3TXZtukMehYNy8": "supplements"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_naaABETn3TXZtukMehYNy8\n__drizzle_migrations\nchat_messages\ndaily_goals\nfasting_logs\nfasting_schedules\nmeal_logs\nmetabolic_profiles\nprogress_logs\nsupplement_logs\nsupplements\n",
+  "stderr": "",
+  "execution_time_ms": 52
+}

@@ -1,0 +1,20 @@
+{
+  "query": "SELECT id, userId, currentWeight, targetWeight, height, age, gender, activityLevel FROM metabolic_profiles WHERE userId = 1",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 38CTfHQgu7ziqf3.8ba454521095 --database naaABETn3TXZtukMehYNy8 --execute SELECT id, userId, currentWeight, targetWeight, height, age, gender, activityLevel FROM metabolic_profiles WHERE userId = 1",
+  "rows": [
+    {
+      "id": "1",
+      "userId": "1",
+      "currentWeight": "312",
+      "targetWeight": "225",
+      "height": "72",
+      "age": "61",
+      "gender": "male",
+      "activityLevel": "very_active"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuserId\tcurrentWeight\ttargetWeight\theight\tage\tgender\tactivityLevel\n1\t1\t312\t225\t72\t61\tmale\tvery_active\n",
+  "stderr": "",
+  "execution_time_ms": 65
+}

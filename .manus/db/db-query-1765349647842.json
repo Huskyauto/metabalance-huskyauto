@@ -1,0 +1,70 @@
+{
+  "query": "SELECT id, userId, date, mealLoggingComplete, proteinGoalComplete, fastingGoalComplete, exerciseGoalComplete, waterGoalComplete, winScore, DATE(date) as date_only FROM daily_goals ORDER BY date DESC LIMIT 5",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 38CTfHQgu7ziqf3.8ba454521095 --database naaABETn3TXZtukMehYNy8 --execute SELECT id, userId, date, mealLoggingComplete, proteinGoalComplete, fastingGoalComplete, exerciseGoalComplete, waterGoalComplete, winScore, DATE(date) as date_only FROM daily_goals ORDER BY date DESC LIMIT 5",
+  "rows": [
+    {
+      "id": "78",
+      "userId": "1",
+      "date": "2030-08-24 04:00:00",
+      "mealLoggingComplete": "1",
+      "proteinGoalComplete": "1",
+      "fastingGoalComplete": "1",
+      "exerciseGoalComplete": "1",
+      "waterGoalComplete": "1",
+      "winScore": "5",
+      "date_only": "2030-08-24"
+    },
+    {
+      "id": "77",
+      "userId": "1",
+      "date": "2030-08-23 04:00:00",
+      "mealLoggingComplete": "1",
+      "proteinGoalComplete": "1",
+      "fastingGoalComplete": "0",
+      "exerciseGoalComplete": "0",
+      "waterGoalComplete": "0",
+      "winScore": "2",
+      "date_only": "2030-08-23"
+    },
+    {
+      "id": "76",
+      "userId": "1",
+      "date": "2030-08-22 04:00:00",
+      "mealLoggingComplete": "1",
+      "proteinGoalComplete": "1",
+      "fastingGoalComplete": "1",
+      "exerciseGoalComplete": "1",
+      "waterGoalComplete": "0",
+      "winScore": "4",
+      "date_only": "2030-08-22"
+    },
+    {
+      "id": "75",
+      "userId": "1",
+      "date": "2030-08-21 04:00:00",
+      "mealLoggingComplete": "1",
+      "proteinGoalComplete": "1",
+      "fastingGoalComplete": "1",
+      "exerciseGoalComplete": "0",
+      "waterGoalComplete": "0",
+      "winScore": "3",
+      "date_only": "2030-08-21"
+    },
+    {
+      "id": "74",
+      "userId": "1",
+      "date": "2030-08-20 04:00:00",
+      "mealLoggingComplete": "1",
+      "proteinGoalComplete": "1",
+      "fastingGoalComplete": "1",
+      "exerciseGoalComplete": "1",
+      "waterGoalComplete": "1",
+      "winScore": "5",
+      "date_only": "2030-08-20"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuserId\tdate\tmealLoggingComplete\tproteinGoalComplete\tfastingGoalComplete\texerciseGoalComplete\twaterGoalComplete\twinScore\tdate_only\n78\t1\t2030-08-24 04:00:00\t1\t1\t1\t1\t1\t5\t2030-08-24\n77\t1\t2030-08-23 04:00:00\t1\t1\t0\t0\t0\t2\t2030-08-23\n76\t1\t2030-08-22 04:00:00\t1\t1\t1\t1\t0\t4\t2030-08-22\n75\t1\t2030-08-21 04:00:00\t1\t1\t1\t0\t0\t3\t2030-08-21\n74\t1\t2030-08-20 04:00:00\t1\t1\t1\t1\t1\t5\t2030-08-20\n",
+  "stderr": "",
+  "execution_time_ms": 59
+}

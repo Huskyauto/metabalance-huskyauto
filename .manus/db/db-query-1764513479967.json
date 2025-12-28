@@ -1,0 +1,37 @@
+{
+  "query": "SELECT mp.*, u.name, u.email FROM metabolic_profiles mp JOIN users u ON mp.userId = u.id;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 38CTfHQgu7ziqf3.8ba454521095 --database naaABETn3TXZtukMehYNy8 --execute SELECT mp.*, u.name, u.email FROM metabolic_profiles mp JOIN users u ON mp.userId = u.id;",
+  "rows": [
+    {
+      "id": "1",
+      "userId": "1",
+      "currentWeight": "200",
+      "targetWeight": "160",
+      "height": "68",
+      "age": "35",
+      "gender": "male",
+      "hasObesity": "1",
+      "hasDiabetes": "0",
+      "hasMetabolicSyndrome": "0",
+      "hasNAFLD": "0",
+      "currentMedications": "Glp1, entrusto",
+      "takingGLP1": "0",
+      "stressLevel": "moderate",
+      "sleepQuality": "fair",
+      "activityLevel": "moderate",
+      "susceptibleToLinoleicAcid": "1",
+      "lowNADLevels": "0",
+      "poorGutHealth": "0",
+      "primaryGoal": "Lose 40 lbs in 6 months",
+      "targetDate": "NULL",
+      "createdAt": "2025-11-30 13:53:27",
+      "updatedAt": "2025-11-30 14:33:50",
+      "name": "Robert Washburn",
+      "email": "huskyauto@gmail.com"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuserId\tcurrentWeight\ttargetWeight\theight\tage\tgender\thasObesity\thasDiabetes\thasMetabolicSyndrome\thasNAFLD\tcurrentMedications\ttakingGLP1\tstressLevel\tsleepQuality\tactivityLevel\tsusceptibleToLinoleicAcid\tlowNADLevels\tpoorGutHealth\tprimaryGoal\ttargetDate\tcreatedAt\tupdatedAt\tname\temail\n1\t1\t200\t160\t68\t35\tmale\t1\t0\t0\t0\tGlp1, entrusto\t0\tmoderate\tfair\tmoderate\t1\t0\t0\tLose 40 lbs in 6 months\tNULL\t2025-11-30 13:53:27\t2025-11-30 14:33:50\tRobert Washburn\thuskyauto@gmail.com\n",
+  "stderr": "",
+  "execution_time_ms": 58
+}

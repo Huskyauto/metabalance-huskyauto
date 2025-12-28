@@ -1,0 +1,35 @@
+{
+  "query": "SELECT * FROM metabolic_profiles LIMIT 5;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 38CTfHQgu7ziqf3.8ba454521095 --database naaABETn3TXZtukMehYNy8 --execute SELECT * FROM metabolic_profiles LIMIT 5;",
+  "rows": [
+    {
+      "id": "1",
+      "userId": "1",
+      "currentWeight": "317",
+      "targetWeight": "225",
+      "height": "72",
+      "age": "61",
+      "gender": "male",
+      "hasObesity": "1",
+      "hasDiabetes": "1",
+      "hasMetabolicSyndrome": "1",
+      "hasNAFLD": "0",
+      "currentMedications": "Glp1, entrusto",
+      "takingGLP1": "1",
+      "stressLevel": "moderate",
+      "sleepQuality": "fair",
+      "activityLevel": "active",
+      "susceptibleToLinoleicAcid": "1",
+      "lowNADLevels": "1",
+      "poorGutHealth": "1",
+      "primaryGoal": "Lose 90 lbs in 12 months",
+      "targetDate": "NULL",
+      "createdAt": "2025-11-30 13:53:27",
+      "updatedAt": "2025-11-30 14:23:03"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuserId\tcurrentWeight\ttargetWeight\theight\tage\tgender\thasObesity\thasDiabetes\thasMetabolicSyndrome\thasNAFLD\tcurrentMedications\ttakingGLP1\tstressLevel\tsleepQuality\tactivityLevel\tsusceptibleToLinoleicAcid\tlowNADLevels\tpoorGutHealth\tprimaryGoal\ttargetDate\tcreatedAt\tupdatedAt\n1\t1\t317\t225\t72\t61\tmale\t1\t1\t1\t0\tGlp1, entrusto\t1\tmoderate\tfair\tactive\t1\t1\t1\tLose 90 lbs in 12 months\tNULL\t2025-11-30 13:53:27\t2025-11-30 14:23:03\n",
+  "stderr": "",
+  "execution_time_ms": 704
+}

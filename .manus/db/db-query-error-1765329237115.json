@@ -1,0 +1,8 @@
+{
+  "query": "SELECT id, user_id, date, meal_logging_complete, protein_goal_complete, fasting_goal_complete, exercise_goal_complete, water_goal_complete, created_at FROM daily_goals ORDER BY date DESC LIMIT 10",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 38CTfHQgu7ziqf3.8ba454521095 --database naaABETn3TXZtukMehYNy8 --execute SELECT id, user_id, date, meal_logging_complete, protein_goal_complete, fasting_goal_complete, exercise_goal_complete, water_goal_complete, created_at FROM daily_goals ORDER BY date DESC LIMIT 10",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1054 (42S22) at line 1: Unknown column 'user_id' in 'field list'"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE meal_logs (\n  id INT AUTO_INCREMENT PRIMARY KEY,\n  userId INT NOT NULL,\n  loggedAt TIMESTAMP NOT NULL,\n  mealType ENUM('breakfast', 'lunch', 'dinner', 'snack') NOT NULL,\n  foodName VARCHAR(255) NOT NULL,\n  servingSize VARCHAR(100),\n  calories INT,\n  protein INT,\n  carbs INT,\n  fats INT,\n  fiber INT,\n  notes TEXT,\n  createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL\n);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 38CTfHQgu7ziqf3.8ba454521095 --database naaABETn3TXZtukMehYNy8 --execute CREATE TABLE meal_logs (\n  id INT AUTO_INCREMENT PRIMARY KEY,\n  userId INT NOT NULL,\n  loggedAt TIMESTAMP NOT NULL,\n  mealType ENUM('breakfast', 'lunch', 'dinner', 'snack') NOT NULL,\n  foodName VARCHAR(255) NOT NULL,\n  servingSize VARCHAR(100),\n  calories INT,\n  protein INT,\n  carbs INT,\n  fats INT,\n  fiber INT,\n  notes TEXT,\n  createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL\n);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 214
+}
